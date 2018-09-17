@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24EA28B419B34746006AE583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EA28B319B34746006AE583 /* Foundation.framework */; };
+		24EA28B619B34746006AE583 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EA28B519B34746006AE583 /* CoreGraphics.framework */; };
+		24EA28B819B34746006AE583 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EA28B719B34746006AE583 /* UIKit.framework */; };
+		24EA28BE19B34746006AE583 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24EA28BC19B34746006AE583 /* InfoPlist.strings */; };
+		24EA28C019B34746006AE583 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA28BF19B34746006AE583 /* main.m */; };
+		24EA28C419B34747006AE583 /* SIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA28C319B34747006AE583 /* SIAppDelegate.m */; };
+		24EA28C719B34747006AE583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EA28C519B34747006AE583 /* Main.storyboard */; };
+		24EA28CA19B34747006AE583 /* SIViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 24EA28C919B34747006AE583 /* SIViewController.mm */; };
+		24EA28CC19B34747006AE583 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24EA28CB19B34747006AE583 /* Images.xcassets */; };
+		24EA28D319B34747006AE583 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EA28D219B34747006AE583 /* XCTest.framework */; };
+		24EA28D419B34747006AE583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EA28B319B34746006AE583 /* Foundation.framework */; };
+		24EA28D519B34747006AE583 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EA28B719B34746006AE583 /* UIKit.framework */; };
+		24EA28DD19B34747006AE583 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24EA28DB19B34747006AE583 /* InfoPlist.strings */; };
+		24EA28DF19B34747006AE583 /* OpenCV_HaarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA28DE19B34747006AE583 /* OpenCV_HaarTests.m */; };
+		24EA28E919B3475B006AE583 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EA28E819B3475B006AE583 /* opencv2.framework */; };
+		24EA28EB19B349CA006AE583 /* haarcascade_smile.xml in Resources */ = {isa = PBXBuildFile; fileRef = 24EA28EA19B349CA006AE583 /* haarcascade_smile.xml */; };
+		24EA28EF19B34FC2006AE583 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EA28EE19B34FC2006AE583 /* AVFoundation.framework */; };
+		24EA28F119B34FD3006AE583 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EA28F019B34FD3006AE583 /* AssetsLibrary.framework */; };
+		24EA28F519B35006006AE583 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EA28F419B35006006AE583 /* CoreMedia.framework */; };
+		24EA28F919B354AA006AE583 /* MyCvVideoCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EA28F819B354AA006AE583 /* MyCvVideoCamera.m */; };
+		FA5C30821F9667C70079D6C5 /* Neuron.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5C30811F9667C70079D6C5 /* Neuron.m */; };
+		FA5C30851F98D4DB0079D6C5 /* NeuroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5C30841F98D4DB0079D6C5 /* NeuroLayer.m */; };
+		FA5C30881F990AAC0079D6C5 /* NeuroNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5C30871F990AAC0079D6C5 /* NeuroNetwork.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24EA28D619B34747006AE583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24EA28A819B34746006AE583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24EA28AF19B34746006AE583;
+			remoteInfo = "OpenCV Haar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24EA28B019B34746006AE583 /* OpenCV Haar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenCV Haar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24EA28B319B34746006AE583 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24EA28B519B34746006AE583 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24EA28B719B34746006AE583 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		24EA28BB19B34746006AE583 /* OpenCV Haar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCV Haar-Info.plist"; sourceTree = "<group>"; };
+		24EA28BD19B34746006AE583 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24EA28BF19B34746006AE583 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24EA28C119B34746006AE583 /* OpenCV Haar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCV Haar-Prefix.pch"; sourceTree = "<group>"; };
+		24EA28C219B34746006AE583 /* SIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIAppDelegate.h; sourceTree = "<group>"; };
+		24EA28C319B34747006AE583 /* SIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIAppDelegate.m; sourceTree = "<group>"; };
+		24EA28C619B34747006AE583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24EA28C819B34747006AE583 /* SIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIViewController.h; sourceTree = "<group>"; };
+		24EA28C919B34747006AE583 /* SIViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SIViewController.mm; sourceTree = "<group>"; };
+		24EA28CB19B34747006AE583 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		24EA28D119B34747006AE583 /* OpenCV HaarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenCV HaarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24EA28D219B34747006AE583 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		24EA28DA19B34747006AE583 /* OpenCV HaarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCV HaarTests-Info.plist"; sourceTree = "<group>"; };
+		24EA28DC19B34747006AE583 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24EA28DE19B34747006AE583 /* OpenCV_HaarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCV_HaarTests.m; sourceTree = "<group>"; };
+		24EA28E819B3475B006AE583 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		24EA28EA19B349CA006AE583 /* haarcascade_smile.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_smile.xml; sourceTree = "<group>"; };
+		24EA28EC19B34A1A006AE583 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		24EA28EE19B34FC2006AE583 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		24EA28F019B34FD3006AE583 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		24EA28F219B34FEC006AE583 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		24EA28F419B35006006AE583 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		24EA28F719B354AA006AE583 /* MyCvVideoCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCvVideoCamera.h; sourceTree = "<group>"; };
+		24EA28F819B354AA006AE583 /* MyCvVideoCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCvVideoCamera.m; sourceTree = "<group>"; };
+		FA5C30801F9667C70079D6C5 /* Neuron.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Neuron.h; sourceTree = "<group>"; };
+		FA5C30811F9667C70079D6C5 /* Neuron.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Neuron.m; sourceTree = "<group>"; };
+		FA5C30831F98D4DB0079D6C5 /* NeuroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeuroLayer.h; sourceTree = "<group>"; };
+		FA5C30841F98D4DB0079D6C5 /* NeuroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeuroLayer.m; sourceTree = "<group>"; };
+		FA5C30861F990AAB0079D6C5 /* NeuroNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeuroNetwork.h; sourceTree = "<group>"; };
+		FA5C30871F990AAC0079D6C5 /* NeuroNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeuroNetwork.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24EA28AD19B34746006AE583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EA28F519B35006006AE583 /* CoreMedia.framework in Frameworks */,
+				24EA28F119B34FD3006AE583 /* AssetsLibrary.framework in Frameworks */,
+				24EA28EF19B34FC2006AE583 /* AVFoundation.framework in Frameworks */,
+				24EA28B619B34746006AE583 /* CoreGraphics.framework in Frameworks */,
+				24EA28B819B34746006AE583 /* UIKit.framework in Frameworks */,
+				24EA28E919B3475B006AE583 /* opencv2.framework in Frameworks */,
+				24EA28B419B34746006AE583 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24EA28CE19B34747006AE583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EA28D319B34747006AE583 /* XCTest.framework in Frameworks */,
+				24EA28D519B34747006AE583 /* UIKit.framework in Frameworks */,
+				24EA28D419B34747006AE583 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24EA28A719B34746006AE583 = {
+			isa = PBXGroup;
+			children = (
+				24EA28B919B34746006AE583 /* OpenCV Haar */,
+				24EA28D819B34747006AE583 /* OpenCV HaarTests */,
+				24EA28B219B34746006AE583 /* Frameworks */,
+				24EA28B119B34746006AE583 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24EA28B119B34746006AE583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24EA28B019B34746006AE583 /* OpenCV Haar.app */,
+				24EA28D119B34747006AE583 /* OpenCV HaarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24EA28B219B34746006AE583 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24EA28F419B35006006AE583 /* CoreMedia.framework */,
+				24EA28F219B34FEC006AE583 /* CoreImage.framework */,
+				24EA28F019B34FD3006AE583 /* AssetsLibrary.framework */,
+				24EA28EE19B34FC2006AE583 /* AVFoundation.framework */,
+				24EA28EC19B34A1A006AE583 /* libc++.dylib */,
+				24EA28E819B3475B006AE583 /* opencv2.framework */,
+				24EA28B319B34746006AE583 /* Foundation.framework */,
+				24EA28B519B34746006AE583 /* CoreGraphics.framework */,
+				24EA28B719B34746006AE583 /* UIKit.framework */,
+				24EA28D219B34747006AE583 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24EA28B919B34746006AE583 /* OpenCV Haar */ = {
+			isa = PBXGroup;
+			children = (
+				24EA28F619B35485006AE583 /* MyCVVideoCamera */,
+				24EA28EA19B349CA006AE583 /* haarcascade_smile.xml */,
+				24EA28C219B34746006AE583 /* SIAppDelegate.h */,
+				24EA28C319B34747006AE583 /* SIAppDelegate.m */,
+				24EA28C519B34747006AE583 /* Main.storyboard */,
+				24EA28C819B34747006AE583 /* SIViewController.h */,
+				24EA28C919B34747006AE583 /* SIViewController.mm */,
+				FA5C30801F9667C70079D6C5 /* Neuron.h */,
+				FA5C30811F9667C70079D6C5 /* Neuron.m */,
+				FA5C30831F98D4DB0079D6C5 /* NeuroLayer.h */,
+				FA5C30841F98D4DB0079D6C5 /* NeuroLayer.m */,
+				FA5C30861F990AAB0079D6C5 /* NeuroNetwork.h */,
+				FA5C30871F990AAC0079D6C5 /* NeuroNetwork.m */,
+				24EA28CB19B34747006AE583 /* Images.xcassets */,
+				24EA28BA19B34746006AE583 /* Supporting Files */,
+			);
+			path = "OpenCV Haar";
+			sourceTree = "<group>";
+		};
+		24EA28BA19B34746006AE583 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24EA28BB19B34746006AE583 /* OpenCV Haar-Info.plist */,
+				24EA28BC19B34746006AE583 /* InfoPlist.strings */,
+				24EA28BF19B34746006AE583 /* main.m */,
+				24EA28C119B34746006AE583 /* OpenCV Haar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24EA28D819B34747006AE583 /* OpenCV HaarTests */ = {
+			isa = PBXGroup;
+			children = (
+				24EA28DE19B34747006AE583 /* OpenCV_HaarTests.m */,
+				24EA28D919B34747006AE583 /* Supporting Files */,
+			);
+			path = "OpenCV HaarTests";
+			sourceTree = "<group>";
+		};
+		24EA28D919B34747006AE583 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24EA28DA19B34747006AE583 /* OpenCV HaarTests-Info.plist */,
+				24EA28DB19B34747006AE583 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24EA28F619B35485006AE583 /* MyCVVideoCamera */ = {
+			isa = PBXGroup;
+			children = (
+				24EA28F719B354AA006AE583 /* MyCvVideoCamera.h */,
+				24EA28F819B354AA006AE583 /* MyCvVideoCamera.m */,
+			);
+			name = MyCVVideoCamera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24EA28AF19B34746006AE583 /* OpenCV Haar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24EA28E219B34747006AE583 /* Build configuration list for PBXNativeTarget "OpenCV Haar" */;
+			buildPhases = (
+				24EA28AC19B34746006AE583 /* Sources */,
+				24EA28AD19B34746006AE583 /* Frameworks */,
+				24EA28AE19B34746006AE583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenCV Haar";
+			productName = "OpenCV Haar";
+			productReference = 24EA28B019B34746006AE583 /* OpenCV Haar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24EA28D019B34747006AE583 /* OpenCV HaarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24EA28E519B34747006AE583 /* Build configuration list for PBXNativeTarget "OpenCV HaarTests" */;
+			buildPhases = (
+				24EA28CD19B34747006AE583 /* Sources */,
+				24EA28CE19B34747006AE583 /* Frameworks */,
+				24EA28CF19B34747006AE583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24EA28D719B34747006AE583 /* PBXTargetDependency */,
+			);
+			name = "OpenCV HaarTests";
+			productName = "OpenCV HaarTests";
+			productReference = 24EA28D119B34747006AE583 /* OpenCV HaarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24EA28A819B34746006AE583 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Neverland;
+				TargetAttributes = {
+					24EA28AF19B34746006AE583 = {
+						DevelopmentTeam = HPPU73C57K;
+					};
+					24EA28D019B34747006AE583 = {
+						TestTargetID = 24EA28AF19B34746006AE583;
+					};
+				};
+			};
+			buildConfigurationList = 24EA28AB19B34746006AE583 /* Build configuration list for PBXProject "OpenCV Haar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24EA28A719B34746006AE583;
+			productRefGroup = 24EA28B119B34746006AE583 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24EA28AF19B34746006AE583 /* OpenCV Haar */,
+				24EA28D019B34747006AE583 /* OpenCV HaarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24EA28AE19B34746006AE583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EA28CC19B34747006AE583 /* Images.xcassets in Resources */,
+				24EA28EB19B349CA006AE583 /* haarcascade_smile.xml in Resources */,
+				24EA28BE19B34746006AE583 /* InfoPlist.strings in Resources */,
+				24EA28C719B34747006AE583 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24EA28CF19B34747006AE583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EA28DD19B34747006AE583 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24EA28AC19B34746006AE583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EA28C419B34747006AE583 /* SIAppDelegate.m in Sources */,
+				24EA28CA19B34747006AE583 /* SIViewController.mm in Sources */,
+				FA5C30881F990AAC0079D6C5 /* NeuroNetwork.m in Sources */,
+				FA5C30821F9667C70079D6C5 /* Neuron.m in Sources */,
+				FA5C30851F98D4DB0079D6C5 /* NeuroLayer.m in Sources */,
+				24EA28C019B34746006AE583 /* main.m in Sources */,
+				24EA28F919B354AA006AE583 /* MyCvVideoCamera.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24EA28CD19B34747006AE583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EA28DF19B34747006AE583 /* OpenCV_HaarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24EA28D719B34747006AE583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24EA28AF19B34746006AE583 /* OpenCV Haar */;
+			targetProxy = 24EA28D619B34747006AE583 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24EA28BC19B34746006AE583 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24EA28BD19B34746006AE583 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		24EA28C519B34747006AE583 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24EA28C619B34747006AE583 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24EA28DB19B34747006AE583 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24EA28DC19B34747006AE583 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24EA28E019B34747006AE583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24EA28E119B34747006AE583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24EA28E319B34747006AE583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = HPPU73C57K;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCV Haar/OpenCV Haar-Prefix.pch";
+				INFOPLIST_FILE = "OpenCV Haar/OpenCV Haar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		24EA28E419B34747006AE583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = HPPU73C57K;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCV Haar/OpenCV Haar-Prefix.pch";
+				INFOPLIST_FILE = "OpenCV Haar/OpenCV Haar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		24EA28E619B34747006AE583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCV Haar.app/OpenCV Haar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCV Haar/OpenCV Haar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OpenCV HaarTests/OpenCV HaarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		24EA28E719B34747006AE583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OpenCV Haar.app/OpenCV Haar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCV Haar/OpenCV Haar-Prefix.pch";
+				INFOPLIST_FILE = "OpenCV HaarTests/OpenCV HaarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24EA28AB19B34746006AE583 /* Build configuration list for PBXProject "OpenCV Haar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24EA28E019B34747006AE583 /* Debug */,
+				24EA28E119B34747006AE583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24EA28E219B34747006AE583 /* Build configuration list for PBXNativeTarget "OpenCV Haar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24EA28E319B34747006AE583 /* Debug */,
+				24EA28E419B34747006AE583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24EA28E519B34747006AE583 /* Build configuration list for PBXNativeTarget "OpenCV HaarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24EA28E619B34747006AE583 /* Debug */,
+				24EA28E719B34747006AE583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24EA28A819B34746006AE583 /* Project object */;
+}
